@@ -93,7 +93,7 @@ p {
 
 /* Logo resmi için stiller */
 #header .logo img {
-    height: 60px; /* Logo yüksekliğini buradan ayarlayabilirsiniz */
+    height: 3em; /* Logo yüksekliğini buradan ayarlayabilirsiniz */
     width: auto; /* Genişlik otomatik ayarlanarak orantı korunur */
     display: block; /* Resmin altındaki olası boşluğu kaldırır */
 }
@@ -313,7 +313,13 @@ footer p {
     .content-section {
         padding: 4rem 0;
     }
-    
+
+    #header .logo img {
+        height: 2em; /* Logo yüksekliğini buradan ayarlayabilirsiniz */
+        width: auto; /* Genişlik otomatik ayarlanarak orantı korunur */
+        display: block; /* Resmin altındaki olası boşluğu kaldırır */
+    }
+
     #header nav {
         flex-direction: column;
         gap: 1rem;
@@ -324,6 +330,10 @@ footer p {
         flex-wrap: wrap;
         justify-content: center;
         gap: 0.5rem 1rem;
+    }
+
+    #header nav ul li{
+        font-size: 0.7rem;
     }
 
     .hero-content h1 {
