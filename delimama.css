@@ -336,6 +336,10 @@ footer p {
         font-size: 0.7rem;
     }
 
+    #hero {
+        padding-top: 5.5em; /* header yüksekliğine göre ayarlandı */
+    }
+
     .hero-content h1 {
         font-size: 2.5rem;
     }
