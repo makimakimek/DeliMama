@@ -314,6 +314,10 @@ footer p {
         padding: 4rem 0;
     }
 
+    #header {
+        position: static;
+    }
+
     #header .logo img {
         height: 2em; /* Logo yüksekliğini buradan ayarlayabilirsiniz */
         width: auto; /* Genişlik otomatik ayarlanarak orantı korunur */
