@@ -337,7 +337,7 @@ footer p {
     }
 
     #hero {
-        padding-top: 5.5em; /* header yüksekliğine göre ayarlandı */
+        padding-top: 10em; /* header yüksekliğine göre ayarlandı */
     }
 
     .hero-content h1 {
